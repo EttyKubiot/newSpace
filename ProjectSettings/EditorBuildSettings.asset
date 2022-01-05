@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/etty/scene12.unity
+    guid: 8abe7b7a031e84049ae7b66d381588fa
+  - enabled: 1
+    path: Assets/etty/3D.unity
+    guid: dda7b04617ebf8d4ab1d120db720876d
+  m_configObjects: {}
