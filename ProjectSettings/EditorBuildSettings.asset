@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/etty/scene12.unity
+    path: Assets/etty/Menu.unity
     guid: 8abe7b7a031e84049ae7b66d381588fa
   - enabled: 1
     path: Assets/etty/3D.unity
