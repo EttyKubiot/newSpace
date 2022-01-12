@@ -799,12 +799,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8002b5ca4f8538044a21a956b90a9a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stand1:
-  - {fileID: 1666774933}
-  - {fileID: 165771576}
-  stand2:
-  - {fileID: 1485355887}
-  - {fileID: 1089003838}
+  setData:
+  - Pair:
+    - {fileID: 1666774933}
+    - {fileID: 165771576}
+    url: https://drive.google.com/u/0/uc?id=11YxceNYNHKKEidjF1El40msaoyNi84cg&export=download
+  - Pair:
+    - {fileID: 1485355887}
+    - {fileID: 1089003838}
+    url: https://drive.google.com/u/0/uc?id=1wdndhNdWoGEu_GK997NCbeAm5viJRI_5&export=download
 --- !u!4 &1806578302
 Transform:
   m_ObjectHideFlags: 0
