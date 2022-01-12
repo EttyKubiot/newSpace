@@ -8,6 +8,7 @@ public class SetData
 {
     public GameObject[] Pair;
     public string url;
+  
 }
 
 

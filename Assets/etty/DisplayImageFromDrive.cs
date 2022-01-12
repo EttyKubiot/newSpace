@@ -7,6 +7,7 @@ using UnityEngine.Networking;
 public class DisplayImageFromDrive : MonoBehaviour
 {
     [SerializeField] private SetData[] setData;
+   
 
     private int imagePlace;
    
@@ -17,6 +18,7 @@ public class DisplayImageFromDrive : MonoBehaviour
 
     }
 
+    
     private IEnumerator DownLoadImage()
     {
         for (int i = 0; i < setData.Length; i++)
@@ -28,8 +30,10 @@ public class DisplayImageFromDrive : MonoBehaviour
             setData[i].Pair[1].GetComponent<Renderer>().material.mainTexture = DownloadHandlerTexture.GetContent(request);
 
             imagePlace = (imagePlace + 1) % setData.Length;
+            
         }
 
     }
 
+   
 }
